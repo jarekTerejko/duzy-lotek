@@ -9,7 +9,10 @@ html, body {
 }
 
 body {
-    background-color: #ecf0f1;
+    background-image: url(../images/bg-Lotto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -21,7 +24,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
 }
@@ -33,10 +36,16 @@ body {
     clear: both;
 }
 
+main {
+    padding: 20px;
+    background-color: rgba(0, 0,0, .5);
+    border-radius: 10px;
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 40px;
-    color: #34495e;
+    color: #FFDE00;
     margin: 0 0 40px 0;
 }
 
